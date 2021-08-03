@@ -3,23 +3,16 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 .container {
-  max-width: 1440px;
+  max-width: 1300px;
   margin: 10rem auto;
   border-radius: 6px;
-  border: 3px solid black;
+  padding: 0;
 }
 .info {
   padding: 4rem;
-  width: 100%;
-}
-h1 {
-  font-family: "Big Shoulders Display", cursive;
-  font-weight: 700;
-}
-p {
-  color: hsla(0, 0%, 100%, 0.75);
 }
 #first-col {
   background-color: hsl(31, 77%, 52%);
@@ -30,9 +23,34 @@ p {
 #third-col {
   background-color: hsl(179, 100%, 13%);
 }
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+p {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  max-width: 75%;
+}
 button {
   background-color: hsl(0, 0%, 95%);
-  border-radius: 15px;
+  border-radius: 50px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+}
+#first-col button {
+  color: hsl(31, 77%, 52%);
+}
+#second-col button {
+  color: hsl(184, 100%, 22%);
+}
+#third-col button {
+  color: hsl(179, 100%, 13%);
 }
 .attribution {
   font-size: 11px;
