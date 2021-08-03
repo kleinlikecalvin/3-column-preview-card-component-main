@@ -24,6 +24,7 @@ body {
 }
 .col button {
   background-color: hsl(0, 0%, 95%);
+  border-radius: 50%;
 }
 .attribution {
   font-size: 11px;
