@@ -36,6 +36,7 @@ p {
   padding-bottom: 6rem;
   max-width: 75%;
 }
+/*Need help making the font color the same as the card backround then changing it on hover. Also, fixing the hover so it doesn't cause the container to grow.*/
 button {
   background-color: hsl(0, 0%, 95%);
   border-radius: 50px;
@@ -62,3 +63,4 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/*Need to make mobile version*/
