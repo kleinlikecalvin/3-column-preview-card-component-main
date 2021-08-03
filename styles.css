@@ -10,7 +10,7 @@ body {
 .col h1 {
   font-family: "Big Shoulders Display", cursive;
 }
-p {
+.col p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 .col #first-col {
@@ -22,7 +22,7 @@ p {
 .col #third-col {
   background-color: hsl(179, 100%, 13%);
 }
-button {
+.col button {
   background-color: hsl(0, 0%, 95%);
 }
 .attribution {
