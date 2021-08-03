@@ -43,21 +43,18 @@ button {
   padding-left: 2rem;
   padding-right: 2rem;
   border: none;
+  color: inherit;
 }
-button::hover {
+button:hover {
   background-color: transparent;
   border: 3px solid hsl(0, 0%, 95%);
+  transition: 0.5s;
+}
+/* #first-btn,
+#second-btn,
+#third-btn {
   color: hsl(0, 0%, 95%);
-}
-#first-col button {
-  color: hsl(31, 77%, 52%);
-}
-#second-col button {
-  color: hsl(184, 100%, 22%);
-}
-#third-col button {
-  color: hsl(179, 100%, 13%);
-}
+} */
 .attribution {
   font-size: 11px;
   text-align: center;
