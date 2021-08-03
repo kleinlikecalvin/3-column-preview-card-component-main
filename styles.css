@@ -6,23 +6,25 @@ body {
 .container {
   max-width: 1440px;
   border-radius: 6px;
+  margin: 10rem auto;
 }
-.col h1 {
+.info h1 {
   font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
 }
-.col p {
+.info p {
   color: hsla(0, 0%, 100%, 0.75);
 }
-.col #first-col {
+.info #first-col {
   background-color: hsl(31, 77%, 52%);
 }
-.second-col {
+.info #second-col {
   background-color: hsl(184, 100%, 22%);
 }
-.col #third-col {
+.info #third-col {
   background-color: hsl(179, 100%, 13%);
 }
-.col button {
+.info button {
   background-color: hsl(0, 0%, 95%);
   border-radius: 50%;
 }
