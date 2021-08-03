@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
 }
-h1 {
+.col h1 {
   font-family: "Big Shoulders Display", cursive;
 }
 .attribution {
