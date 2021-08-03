@@ -3,6 +3,9 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
 }
+.container {
+  max-width: 1440px;
+}
 .col h1 {
   font-family: "Big Shoulders Display", cursive;
 }
