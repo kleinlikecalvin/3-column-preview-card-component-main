@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
 }
+/*Need help making the items have the same border radius as the container. Right now the container has the correct border radius but the cards still show with hard edges*/
 .container {
   max-width: 1300px;
   margin: 10rem auto;
@@ -42,6 +43,11 @@ button {
   padding-left: 2rem;
   padding-right: 2rem;
   border: none;
+}
+button::hover {
+  background-color: transparent;
+  border: 3px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
 #first-col button {
   color: hsl(31, 77%, 52%);
