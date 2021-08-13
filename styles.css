@@ -7,22 +7,28 @@ body {
 }
 /*Need help making the items have the same border radius as the container. Right now the container has the correct border radius but the cards still show with hard edges*/
 .container {
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 10rem auto;
-  border-radius: 6px;
+  border-radius: var(--border-radius-size);
+  overflow: hidden;
   padding: 0;
 }
 .info {
-  padding: 4rem;
+  padding: 4rem;  
+  background-color: var(--slot-color);
+}
+html {
+  --slot-color: pink;
+  --border-radius-size: 8px;
 }
 #first-col {
-  background-color: hsl(31, 77%, 52%);
+  --slot-color: hsl(31, 77%, 52%);
 }
 #second-col {
-  background-color: hsl(184, 100%, 22%);
+  --slot-color: hsl(184, 100%, 22%);
 }
 #third-col {
-  background-color: hsl(179, 100%, 13%);
+  --slot-color: hsl(179, 100%, 13%);
 }
 h1 {
   font-family: "Big Shoulders Display", cursive;
@@ -36,26 +42,20 @@ p {
   padding-bottom: 6rem;
   max-width: 75%;
 }
-/*Need help making the font color the same as the card backround then changing it on hover. Also, fixing the hover so it doesn't cause the container to grow.*/
 button {
   background-color: hsl(0, 0%, 95%);
   border-radius: 50px;
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  border: none;
-  color: inherit;
+  border: 3px solid hsl(0, 0%, 95%);
+  color: var(--slot-color);
 }
 button:hover {
   background-color: transparent;
   border: 3px solid hsl(0, 0%, 95%);
   transition: 0.5s;
 }
-/* #first-btn,
-#second-btn,
-#third-btn {
-  color: hsl(0, 0%, 95%);
-} */
 .attribution {
   font-size: 11px;
   text-align: center;
